@@ -33,8 +33,8 @@
                         <hr>
                         {% if user.is_staff %}
                             <p>Staff</p>
-                            <a href="{% url 'all-borrowed' %}">All borrowed</a>
-                            <a href="{% url 'author-create' %}">Create User</a>
+                            <a href="{% url 'all-borrowed' %}">All borrowed</a><br>
+                            <a href="{% url 'author-create' %}">Create Author</a><br>
                             <a href="{% url 'book-create' %}">Create Book</a>
                         {% endif %}
                     </ul>
